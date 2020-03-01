@@ -3,6 +3,10 @@ Todo List with React and node.js
 
 This document describes how to run this todolist code using reactJS and node.js
 
+To just see the ReactJS code, look in ReactJS-todolist/src/index.js
+
+To run the code with node and React, see the instructions below:
+
 1. Download the ReactJS-todolist directory. This should contain everything you need to start the reactJS app and the node server.
 
 2. Open two terminal windows. in the first, cd into the todolist folder.To check, type "ls" into terminal and you should see node_modules, package.json, package-lock.json, public, a readme file, server.js, and an src directory.
