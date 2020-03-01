@@ -7,7 +7,9 @@ This document describes how to run this todolist code using reactJS and node.js
 
 2. Open two terminal windows. in the first, cd into the todolist folder.To check, type "ls" into terminal and you should see node_modules, package.json, package-lock.json, public, a readme file, server.js, and an src directory.
 
-4. In the first terminal window, once you have cd'ed into the todolist directory, type "node server.js". This will run the server.js file with a node server. If you already have something running on port 8080, you may need to modify the code in server.js. When you server is running successfully, you should see "Listening" as an output in your terminal window.
+4. In the first terminal window, once you have cd'ed into the todolist directory, type "npm install --save cors" into your terminal. this will install all the node modules necessary for the node server.
+
+5. Once you have installed node modules, type "node server.js". This will run the server.js file with a node server. If you already have something running on port 8080, you may need to modify the code in server.js. When you server is running successfully, you should see "Listening" as an output in your terminal window.
 
 6. Next, open the second terminal window, and cd into .../todolist/src/ . In src, you should see two files: index.css and index.js
 
